@@ -1,0 +1,13 @@
+{
+  "name": "app-ci-demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "node -c src/index.js",
+    "build": "echo build-ok"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
